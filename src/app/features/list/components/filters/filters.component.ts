@@ -27,9 +27,9 @@ export class FiltersComponent {
   @Output() onSearch: EventEmitter<any> = new EventEmitter<any>();
   @Output() onCreate: EventEmitter<any> = new EventEmitter<any>();
 
-  chipFilters = ['id', 'name', 'years'];
+  chipFilters = ['id', 'nombre', 'fechas'];
 
-  chipFilterSelected = signal<string>('name');
+  chipFilterSelected = signal<string>('nombre');
 
   dialog = inject(MatDialog);
 

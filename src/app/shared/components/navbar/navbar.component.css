@@ -1,25 +1,37 @@
 .w-60 {
-    padding: 0 15%;
-}
-
-.fixed {
-    position: fixed;
-    top: 0;
-    z-index: 2;
+  padding: 0 15%;
 }
 
 .title {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .spacer {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .buttons {
-    display: flex;
-    gap: 10px;
-    padding-right: 10%;
+  display: flex;
+  gap: 10px;
+  padding-right: 10%;
+}
+
+@media screen and (max-width: 900px) {
+    .w-60 {
+      padding: 0 5%;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+  .w-60 {
+    padding: 0 20px;
+  }
+  .desktop {
+    display: none;
+  }
+  .buttons {
+    padding-left: 20px;
+  }
 }

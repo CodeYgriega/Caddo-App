@@ -3,11 +3,12 @@ import { CommonModule } from '@angular/common';
 import { CharactersService } from '../../shared/services/characters.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Character } from '../../shared/models/characters';
+import { LoadingInterceptorComponent } from '../../shared/components/loading-interceptor/loading-interceptor.component';
 
 @Component({
   selector: 'app-details',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, LoadingInterceptorComponent,],
   templateUrl: './details.component.html',
   styleUrl: './details.component.css'
 })

@@ -11,7 +11,7 @@
       (change)="setChipSelected($event)">
       
       @for(filter of chipFilters; track filter){
-      <mat-chip-option color="primary" [selected]="filter === 'name'">
+      <mat-chip-option color="primary" [selected]="filter === 'nombre'">
         {{ filter }}
       </mat-chip-option>
       }

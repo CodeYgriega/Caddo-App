@@ -2,107 +2,107 @@
   "characters": [
     {
       "id": 1,
-      "name": "Charles Darwin",
-      "years": "(1809 - 1882)",
-      "description": "Este famoso naturalista inglés fue quien postuló que todas las especies de seres vivos han evolucionado con el tiempo a partir de un antepasado común mediante un proceso denominado “selección natural”. Su teoría de la evolución forma la base de la síntesis evolutiva moderna y constituye una explicación lógica que unifica las observaciones sobre la diversidad de la vida y que es la base de la ciencia de la Biología.",
+      "nombre": "Charles Darwin",
+      "fechas": "(1809 - 1882)",
+      "descripcion": "Este famoso naturalista inglés fue quien postuló que todas las especies de seres vivos han evolucionado con el tiempo a partir de un antepasado común mediante un proceso denominado “selección natural”. Su teoría de la evolución forma la base de la síntesis evolutiva moderna y constituye una explicación lógica que unifica las observaciones sobre la diversidad de la vida y que es la base de la ciencia de la Biología.",
       "img": "https://pymstatic.com/96466/conversions/charles-darwin-default_webp.webp"
     },
     {
       "id": 2,
-      "name": "Aristóteles",
-      "years": "(384 a. C. - 322 a. C.)",
-      "description": "Se le considera por el mundo académico como el primer científico e investigador de todos los tiempos, cuya influencia ha perdurado durante dos mil años. Fue todo un erudito, un sabio, una eminencia en diferentes ámbitos de las ciencias y humanidades: político, filósofo, lógico y científico en la Antigua Grecia. Se le reconoce como el primer fundador de la lógica y la biología, y sus obras han sido utilizadas como la base del desarrollo científico durante siglos.",
+      "nombre": "Aristóteles",
+      "fechas": "(384 a. C. - 322 a. C.)",
+      "descripcion": "Se le considera por el mundo académico como el primer científico e investigador de todos los tiempos, cuya influencia ha perdurado durante dos mil años. Fue todo un erudito, un sabio, una eminencia en diferentes ámbitos de las ciencias y humanidades: político, filósofo, lógico y científico en la Antigua Grecia. Se le reconoce como el primer fundador de la lógica y la biología, y sus obras han sido utilizadas como la base del desarrollo científico durante siglos.",
       "img": "https://pymstatic.com/96467/conversions/Arist%C3%B3teles-default_webp.webp"
     },
     {
       "id": 3,
-      "name": "Napoleón Bonaparte",
-      "years": "(1769 - 1821)",
-      "description": "Ambición, voluntad, valentía, inteligencia, soberbia, crueldad, grandeza...son apelativos que podrían describir perfectamente a este personaje de la historia. Menospreciado por unos, engrandecido por otros, enaltecido, vilipendiado, ánimos contradictorios los que se pueden leer y escuchar sobre él. Con su inteligencia militar fue capaz de conquistar Europa Oriental y Occidental llegando hasta el norte de África.",
+      "nombre": "Napoleón Bonaparte",
+      "fechas": "(1769 - 1821)",
+      "descripcion": "Ambición, voluntad, valentía, inteligencia, soberbia, crueldad, grandeza...son apelativos que podrían describir perfectamente a este personaje de la historia. Menospreciado por unos, engrandecido por otros, enaltecido, vilipendiado, ánimos contradictorios los que se pueden leer y escuchar sobre él. Con su inteligencia militar fue capaz de conquistar Europa Oriental y Occidental llegando hasta el norte de África.",
       "img": "https://pymstatic.com/96468/conversions/Napole%C3%B3n-default_webp.webp"
     },
     {
       "id": 4,
-      "name": "Julio César",
-      "years": "(100 a. C. - 44 a. C.)",
-      "description": "Líder político y militar del gran Imperio Romano, dando lugar a ser el primer dirigente romano vivo cuyo rostro apareció en una moneda en circulación. A parte de su carrera política y militar, este personaje histórico destacó como orador y escritor sobre temas como la religión republicana romana, astronomía o latín.",
+      "nombre": "Julio César",
+      "fechas": "(100 a. C. - 44 a. C.)",
+      "descripcion": "Líder político y militar del gran Imperio Romano, dando lugar a ser el primer dirigente romano vivo cuyo rostro apareció en una moneda en circulación. A parte de su carrera política y militar, este personaje histórico destacó como orador y escritor sobre temas como la religión republicana romana, astronomía o latín.",
       "img": "https://pymstatic.com/96469/conversions/Julio-C%C3%A9sar-default_webp.webp"
     },
     {
       "id": 5,
-      "name": "Platón",
-      "years": "(427 a. C. - 347 a. C.)",
-      "description": "Junto a Sócrates y Aristóteles, es considerado uno de los filosóficos más influyentes en el pensamiento de la Europa moderna. A diferencia de Sócrates, Platón escribió y conservó todas sus obras, introduciendo un nuevo estilo novedoso para la época: el diálogo. La contraposición de distintos puntos de vista y la caracterización psicológica de los interlocutores, supuso una herramienta alternativa a la expresión poética u oracular.",
+      "nombre": "Platón",
+      "fechas": "(427 a. C. - 347 a. C.)",
+      "descripcion": "Junto a Sócrates y Aristóteles, es considerado uno de los filosóficos más influyentes en el pensamiento de la Europa moderna. A diferencia de Sócrates, Platón escribió y conservó todas sus obras, introduciendo un nuevo estilo novedoso para la época: el diálogo. La contraposición de distintos puntos de vista y la caracterización psicológica de los interlocutores, supuso una herramienta alternativa a la expresión poética u oracular.",
       "img": "https://pymstatic.com/96470/conversions/Plat%C3%B3n-default_webp.webp"
     },
     {
       "id": 6,
-      "name": "Albert Einstein",
-      "years": "(1879 - 1955)",
-      "description": "“La mente es como un paracaídas, únicamente sirve si lo tenemos abierto”. Físico alemán es considerado el científico más importante y popular del siglo XX. En 1905, siendo todavía un joven investigador desconocido, publicó su teoría de la relatividad espacial. Diez años más tarde, presentaría la teoría de la relatividad general, lo que reformuló por completo el concepto de gravedad.",
+      "nombre": "Albert Einstein",
+      "fechas": "(1879 - 1955)",
+      "descripcion": "“La mente es como un paracaídas, únicamente sirve si lo tenemos abierto”. Físico alemán es considerado el científico más importante y popular del siglo XX. En 1905, siendo todavía un joven investigador desconocido, publicó su teoría de la relatividad espacial. Diez años más tarde, presentaría la teoría de la relatividad general, lo que reformuló por completo el concepto de gravedad.",
       "img": "https://pymstatic.com/96471/conversions/Albert-Einstein-default_webp.webp"
     },
     {
       "id": 7,
-      "name": "George Washington",
-      "years": "(1723 - 1799)",
-      "description": "Fue el primer presidente de los Estados Unidos entre los años 1789 y 1797, Comandante en Jefe del Ejército Continental revolucionario en la Guerra de Independencia de los EEUU frente a Inglaterra (1775-1783) y uno de los autores de la Constitución Americana. En los EEUU es considerado como el Padre de la Patria.",
+      "nombre": "George Washington",
+      "fechas": "(1723 - 1799)",
+      "descripcion": "Fue el primer presidente de los Estados Unidos entre los años 1789 y 1797, Comandante en Jefe del Ejército Continental revolucionario en la Guerra de Independencia de los EEUU frente a Inglaterra (1775-1783) y uno de los autores de la Constitución Americana. En los EEUU es considerado como el Padre de la Patria.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/330px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg"
     },
     {
       "id": 8,
-      "name": "William Shakespeare",
-      "years": "(1564 - 1616)",
-      "description": "Poeta, dramaturgo y actor inglés, reconocido como el escritor más importante de la lengua inglesa y uno de los más ilustres autores de la literatura universal. Su reputación no alcanzó el éxito mundial hasta bien entrado el siglo XIX. Ya en el siglo XX, todas sus obras fueron adaptadas en multitud de ocasiones y en todo tipo de escenarios: cine, libros y teatro.",
+      "nombre": "William Shakespeare",
+      "fechas": "(1564 - 1616)",
+      "descripcion": "Poeta, dramaturgo y actor inglés, reconocido como el escritor más importante de la lengua inglesa y uno de los más ilustres autores de la literatura universal. Su reputación no alcanzó el éxito mundial hasta bien entrado el siglo XIX. Ya en el siglo XX, todas sus obras fueron adaptadas en multitud de ocasiones y en todo tipo de escenarios: cine, libros y teatro.",
       "img": "https://pymstatic.com/96472/conversions/William-Shakespeare-default_webp.webp"
     },
     {
       "id": 9,
-      "name": "Cristóbal Colón",
-      "years": "(1436 - 1506)",
-      "description": "Su mayor logro y éxito fue el descubrimiento de América por parte de Occidente un 12 de octubre del año 1492, al desembarcar en la Isla Guanahani, actualmente conocido como las Bahamas. Antes de esto, fue un navegante, cartógrafo, almirante, virrey y Gobernador General de las Indias Occidentales al servicio de la Corona de Castilla.",
+      "nombre": "Cristóbal Colón",
+      "fechas": "(1436 - 1506)",
+      "descripcion": "Su mayor logro y éxito fue el descubrimiento de América por parte de Occidente un 12 de octubre del año 1492, al desembarcar en la Isla Guanahani, actualmente conocido como las Bahamas. Antes de esto, fue un navegante, cartógrafo, almirante, virrey y Gobernador General de las Indias Occidentales al servicio de la Corona de Castilla.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/330px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg"
     },
     {
       "id": 10,
-      "name": "Isaac Newton",
-      "years": "(1643 - 1727)",
-      "description": "Matemático, filósofo, alquimista, teólogo y físico inglés. Autor de “los Philosophiae Naturalis Principia Matemática”, más comúnmente conocido como Principia, donde describe la ley de gravitación universal y estableció las bases de la mecánica clásica mediante las leyes que llevan su nombre.",
+      "nombre": "Isaac Newton",
+      "fechas": "(1643 - 1727)",
+      "descripcion": "Matemático, filósofo, alquimista, teólogo y físico inglés. Autor de “los Philosophiae Naturalis Principia Matemática”, más comúnmente conocido como Principia, donde describe la ley de gravitación universal y estableció las bases de la mecánica clásica mediante las leyes que llevan su nombre.",
       "img": "https://pymstatic.com/96473/conversions/Isaac-Newton-default_webp.webp"
     },
     {
       "id": 11,
-      "name": "Sigmund Freud",
-      "years": "(1856 - 1939)",
-      "description": "Este controvertido personaje histórico fue un médico neurólogo, considerado el fundador del psicoanálisis, así como de varias teorías que han perdurado sobre todo en las Ciencias Sociales y en el mundo de las artes. A pesar de sus polémicas teorías psicológicas, teniendo como tema central el sexo, Freud es considerado una de las figuras más influyentes del siglo XX, a pesar de su adicción a la cocaína que le llevó a la muerte en 1939.",
+      "nombre": "Sigmund Freud",
+      "fechas": "(1856 - 1939)",
+      "descripcion": "Este controvertido personaje histórico fue un médico neurólogo, considerado el fundador del psicoanálisis, así como de varias teorías que han perdurado sobre todo en las Ciencias Sociales y en el mundo de las artes. A pesar de sus polémicas teorías psicológicas, teniendo como tema central el sexo, Freud es considerado una de las figuras más influyentes del siglo XX, a pesar de su adicción a la cocaína que le llevó a la muerte en 1939.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/330px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg"
     },
     {
       "id": 12,
-      "name": "Louis Pasteur",
-      "years": "(1822 - 1895)",
-      "description": "Fue un químico francés cuyos descubrimientos tuvieron un enorme impacto en los diversos campos de las ciencias naturales. A él se le debe honor a la técnica de “pasteurización”. Además, rechazó categóricamente la teoría de la generación espontánea y desarrolló la teoría germinal de las enfermedades infecciosas.",
+      "nombre": "Louis Pasteur",
+      "fechas": "(1822 - 1895)",
+      "descripcion": "Fue un químico francés cuyos descubrimientos tuvieron un enorme impacto en los diversos campos de las ciencias naturales. A él se le debe honor a la técnica de “pasteurización”. Además, rechazó categóricamente la teoría de la generación espontánea y desarrolló la teoría germinal de las enfermedades infecciosas.",
       "img": "https://pymstatic.com/96472/conversions/William-Shakespeare-default_webp.webp"
     },
     {
       "id": 13,
-      "name": "Wolfgang Amadeus Mozart",
-      "years": "(1756 - 1791)",
-      "description": "Compositor y pianista de origen austriaco, maestro del Clasicismo, es considerado como uno de los personajes más influyentes en el mundo de la música de todos los tiempos. Su música se ha utilizado en películas, series, teatro e incluso videojuegos. La obra mozartiana abarca todos los géneros musicales que incluyen alrededor de 700 obras.",
+      "nombre": "Wolfgang Amadeus Mozart",
+      "fechas": "(1756 - 1791)",
+      "descripcion": "Compositor y pianista de origen austriaco, maestro del Clasicismo, es considerado como uno de los personajes más influyentes en el mundo de la música de todos los tiempos. Su música se ha utilizado en películas, series, teatro e incluso videojuegos. La obra mozartiana abarca todos los géneros musicales que incluyen alrededor de 700 obras.",
       "img": "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTQYhcNsxy7UkRJs5OSaoZc1J1cX7LExFi4Lo95RvZQPisQPDCoEYlcy6CQ6Im16ksF"
     },
     {
       "id": 14,
-      "name": "Martin Luther King",
-      "years": "(1929 - 1968)",
-      "description": "Fue un pastor estadounidense de la iglesia Bautista que desarrolló una labor crucial en Estados Unidos al frente del Movimiento por los Derechos Civiles para los afroamericanos y que, además, participó como activista en contra de la pobreza general y la Guerra del Vietnam. Es uno de los referentes de la lucha contra el racismo en los Estados Unidos.",
+      "nombre": "Martin Luther King",
+      "fechas": "(1929 - 1968)",
+      "descripcion": "Fue un pastor estadounidense de la iglesia Bautista que desarrolló una labor crucial en Estados Unidos al frente del Movimiento por los Derechos Civiles para los afroamericanos y que, además, participó como activista en contra de la pobreza general y la Guerra del Vietnam. Es uno de los referentes de la lucha contra el racismo en los Estados Unidos.",
       "img": "https://pymstatic.com/96475/conversions/Martin-Luther-King-default_webp.webp"
     },
     {
       "id": 15,
-      "name": "Muhammad Alí",
-      "years": "(1942 - 2016)",
-      "description": "Seguramente sea el personaje más famoso del siglo XX, pues revistas como The Times o The Esquire así lo han sentenciado en numerosas ocasiones. Cambió las reglas del juego en el mundo del boxeo rompiendo lazos con la mafia que controlaba el negocio para imponer su lucha no sólo dentro del ring, sino fuera de él siendo el portavoz contra la segregación racial universal y negándose a ir a la Guerra del Vietnam, lo que le supuso su entrada en prisión.",
+      "nombre": "Muhammad Alí",
+      "fechas": "(1942 - 2016)",
+      "descripcion": "Seguramente sea el personaje más famoso del siglo XX, pues revistas como The Times o The Esquire así lo han sentenciado en numerosas ocasiones. Cambió las reglas del juego en el mundo del boxeo rompiendo lazos con la mafia que controlaba el negocio para imponer su lucha no sólo dentro del ring, sino fuera de él siendo el portavoz contra la segregación racial universal y negándose a ir a la Guerra del Vietnam, lo que le supuso su entrada en prisión.",
       "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/330px-Muhammad_Ali_NYWTS.jpg"
     }
   ]

@@ -3,17 +3,17 @@
     <form [formGroup]="form" class="form">
         <mat-form-field class="example-full-width">
             <mat-label>Nombre</mat-label>
-            <input matInput placeholder="Stephen Hawking..." formControlName="name">
+            <input matInput placeholder="Stephen Hawking..." formControlName="nombre">
           </mat-form-field>
 
           <mat-form-field class="example-full-width">
             <mat-label>Fechas de vida</mat-label>
-            <input matInput placeholder="(1942–2018)..." formControlName="years">
+            <input matInput placeholder="(1942–2018)..." formControlName="fechas">
           </mat-form-field>
         
           <mat-form-field class="example-full-width">
             <mat-label>Descripción</mat-label>
-            <textarea matInput placeholder="Descripción breve del personaje..." formControlName="description"></textarea>
+            <textarea matInput placeholder="Descripción breve del personaje..." formControlName="descripcion"></textarea>
           </mat-form-field>
 
           <button mat-raised-button color="primary" (click)="fileInput.click()">Selecciona una imagen*</button>

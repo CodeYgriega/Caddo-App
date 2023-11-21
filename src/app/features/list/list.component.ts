@@ -31,15 +31,13 @@ export class ListComponent {
   totalCharactersInRow = 0;
   totalCharacters = dbJson.characters.length;
   characters$ = new BehaviorSubject<Character[]>([]);
-  columns = ['id', 'name', 'years', 'img'];
+  columns = ['id', 'nombre', 'fechas', 'img'];
 
   ngOnInit(): void {
     this._charactersSvc.getCharacters(1, 5).subscribe(res => {
       this.characters$.next(res);
       this.totalCharactersInRow += this.characters$.value.length;
     });
-
-    this._charactersSvc.getCharacterById(5).subscribe(console.log);
   }
 
   filterCharacters(filterData: {property: string, value: string}) {

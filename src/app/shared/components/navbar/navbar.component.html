@@ -1,13 +1,13 @@
 <mat-toolbar color="primary" class="w-60 fixed">
   <span class="title">
     <mat-icon>perm_contact_calendar</mat-icon>
-    Mantenimiento de personajes
+    <span class="desktop">Mantenimiento de personajes</span>
   </span>
 
-  <span class="spacer"></span>
+  <span class="spacer desktop"></span>
 
   <div class="buttons">
-    <button mat-button>
+    <button mat-button (click)="redirect('home')">
       <mat-icon>home</mat-icon>
       Inicio
     </button>

@@ -1,7 +1,7 @@
 export interface Character {
     id: number;
-    name: string;
-    years: string;
-    description: string;
+    nombre: string;
+    fechas: string;
+    descripcion: string;
     img: string;
 }

@@ -34,9 +34,9 @@ export class CreateCharacterComponent {
 
   constructor() {
     this.form = this.fb.group({
-      name: ['', [Validators.required, Validators.minLength(5)]],
-      years: ['', [Validators.required, Validators.minLength(5)]],
-      description: ['', [Validators.required, Validators.minLength(15)]],
+      nombre: ['', [Validators.required, Validators.minLength(5)]],
+      fechas: ['', [Validators.required, Validators.minLength(4)]],
+      descripcion: ['', [Validators.required, Validators.minLength(5)]],
       img: ['', [Validators.required]],
     });
   }
