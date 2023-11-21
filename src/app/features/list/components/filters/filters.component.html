@@ -1,0 +1,18 @@
+<mat-form-field class="w-100">
+  <mat-label>Filtrar por nombre</mat-label>
+  <input  matInput 
+          placeholder="Darwin..."
+          (keyup)="search(input.value)"
+          #input />
+
+  <mat-chip-listbox
+    aria-label="Filter selection"
+    (change)="setChipSelected($event)">
+    
+    @for(filter of chipFilters; track filter){
+    <mat-chip-option color="primary" [selected]="filter === 'name'">
+      {{ filter }}
+    </mat-chip-option>
+    }
+  </mat-chip-listbox>
+</mat-form-field>
