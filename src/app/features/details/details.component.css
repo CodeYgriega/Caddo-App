@@ -1,0 +1,26 @@
+.details {
+    width: 50%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 20px;
+}

@@ -1,5 +1,5 @@
 .container-table-list {
-    max-width: 65%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 2rem 0;
 }
@@ -8,7 +8,34 @@
     color: white;
 }
 
+.mat-column-img {
+    padding: 10px 0;
+}
+
+.mat-column-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .mat-column-description {
     padding: 10px 0;
     max-width: 400px;
+}
+
+.mat-mdc-row {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+  .mat-mdc-row:hover .mat-mdc-cell {
+    border-color: rgba(255, 255, 255, 0.466);
+  }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }

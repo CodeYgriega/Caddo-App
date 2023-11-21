@@ -1,4 +1,4 @@
-<mat-toolbar color="primary" class="w-60">
+<mat-toolbar color="primary" class="w-60 fixed">
   <span class="title">
     <mat-icon>perm_contact_calendar</mat-icon>
     Mantenimiento de personajes
@@ -7,8 +7,13 @@
   <span class="spacer"></span>
 
   <div class="buttons">
-    <button mat-button>Inicio</button>
-    <button mat-button>Listado</button>
-    <button mat-button>Añadir personaje</button>
+    <button mat-button>
+      <mat-icon>home</mat-icon>
+      Inicio
+    </button>
+    <button mat-button (click)="redirect('list')">
+      <mat-icon>grid_on</mat-icon>
+      Listado
+    </button>
   </div>
 </mat-toolbar>

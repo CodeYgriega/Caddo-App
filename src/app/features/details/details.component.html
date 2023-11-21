@@ -1,0 +1,9 @@
+@if (character) {
+    <section class="details">
+            <h1>{{ character.name }}</h1>
+            <h4>{{ character.years }}</h4>
+            <img [src]="character.img" [alt]="character.img" width="400px">
+            <p>{{ character.description }}</p>
+    </section>
+    
+}

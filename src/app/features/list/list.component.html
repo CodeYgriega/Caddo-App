@@ -1,19 +1,39 @@
+<app-loading-interceptor></app-loading-interceptor>
+
 <div mat-table-container class="container-table-list">
 
   <h1 class="title">Listado de personajes:</h1>
 
-  <app-filters (onSearch)="filterCharacters($event)"></app-filters>
+  <app-filters 
+    (onSearch)="filterCharacters($event)"
+    (onCreate)="createCharacter($event)">
+  </app-filters>
 
   <table mat-table [dataSource]="characters$" class="mat-elevation-z8">
 
     @for (column of columns; track column) {
+      @if(column === 'img'){
+        <ng-container matColumnDef="{{ column }}">
+          <th mat-header-cell *matHeaderCellDef>Imagen</th>
+          <td mat-cell *matCellDef="let element" (click)="redirectDetails(element.id)">
+            <img [src]="element.img" [alt]="element.name">
+          </td>
+        </ng-container>
+      }
+      @else {
       <ng-container matColumnDef="{{ column }}">
         <th mat-header-cell *matHeaderCellDef>{{ column | titlecase}}</th>
-        <td mat-cell *matCellDef="let element">{{ element[column] }}</td>
+        <td mat-cell *matCellDef="let element" (click)="redirectDetails(element.id)">{{ element[column] }}</td>
       </ng-container>
+      }
     }
   
     <tr mat-header-row *matHeaderRowDef="columns"></tr>
     <tr mat-row *matRowDef="let row; columns: columns"></tr>
   </table>
+
+  <div class="pagination">
+    <button mat-button [disabled]="page === 1" (click)="chargeMinus()"><</button>
+    <button mat-button [disabled]="totalCharactersInRow === totalCharacters" (click)="chargeMore()">></button>
+  </div>
 </div>

@@ -1,0 +1,15 @@
+.container{
+    color: white;
+    padding: 20px;
+}
+
+.form {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.mat-dialog-actions {
+    margin-top: 5px;
+}
